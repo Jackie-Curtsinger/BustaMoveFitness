@@ -1,0 +1,14 @@
+  
+.jumbo { 
+    background:rgb(102, 255, 0, .7);
+    border: solid black 30px;
+}
+.text {
+    font-size: 45px;
+    text-align: center;
+    color:black;
+}
+.neon {
+    background-color: rgb(102, 255, 0, .7);
+}
+
