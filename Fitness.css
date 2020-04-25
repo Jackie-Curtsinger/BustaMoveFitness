@@ -1,0 +1,37 @@
+.jumbo { 
+    margin: 0;
+    background:rgb(134, 255, 21);
+    border: solid black 20px;
+}
+.text {
+    font-size: 45px;
+    text-align: center;
+}
+.neon {
+    background-color: rgb(134, 255, 21);
+}
+body {
+    background-color: rgb(66, 65, 65);
+}
+.navbar {
+    background-color: rgb(0, 0, 0);
+    color: #9933cc;
+    font-size: 11pt;
+}
+.nav-link {
+    color:#9933cc;
+    font-size: larger;
+}
+
+.navbar-toggler {
+    background-color: black;
+    width: 40px;
+    height:40px;
+  }
+  .fa-align-justify {
+      color: #9933cc;
+      
+  }
+  
+
+  
