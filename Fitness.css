@@ -1,7 +1,9 @@
   
 .jumbo { 
+    padding: 30px;
     background:rgb(102, 255, 0, .7);
-    border: solid black 30px;
+    border: solid black 20px;
+    margin:0;
 }
 .text {
     font-size: 45px;
@@ -10,5 +12,23 @@
 }
 .neon {
     background-color: rgb(102, 255, 0, .7);
+}
+.navbar {
+    background-color:black;
+    color:  #9933CC;
+}
+.nav-link {
+    color:#9933CC;
+    background-color: transparent;
+        color:#9933CC;
+      
+}
+body {
+    background-color:rbg (65,65,65);
+}
+.navbar-toggler {
+    color: #9933CC !important;
+    background-color: black;
+    
 }
 
