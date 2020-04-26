@@ -1,20 +1,32 @@
 {
   "name": "nucampsite",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "This is a website for the fictional campsites review site Nucamp",
+=======
+  "description": "This is a website for the fictional campsites review site NuCamp.",
+>>>>>>> b811c6168c105b49468bcf56d1c059f6439b8c40
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": "B C",
+=======
+  "author": "Jackie",
+>>>>>>> b811c6168c105b49468bcf56d1c059f6439b8c40
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap": "^4.4.1",
+=======
+    "bootstrap": "^4.0.0",
+>>>>>>> b811c6168c105b49468bcf56d1c059f6439b8c40
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",

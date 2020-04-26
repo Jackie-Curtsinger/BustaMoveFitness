@@ -1,11 +1,14 @@
-.jumbo { 
-    margin: 0;
-    background:rgb(134, 255, 21);
+  .jumbo { 
+    padding: 30px;
+    background:rgb(102, 255, 0, .7);
     border: solid black 20px;
+    margin:0;
+
 }
 .text {
     font-size: 45px;
     text-align: center;
+
 }
 .neon {
     background-color: rgb(134, 255, 21);
@@ -32,6 +35,3 @@ body {
       color: #9933cc;
       
   }
-  
-
-  
