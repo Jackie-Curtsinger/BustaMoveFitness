@@ -12,6 +12,12 @@
 }
 .neon {
     background-color: rgb(134, 255, 21);
+    background-image: url("img/weightPlates.jpeg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    
+   
 }
 body {
     background-color: black
@@ -34,4 +40,7 @@ body {
   .fa-align-justify {
       color: #9933cc;
       
+  }
+  .neon2 {
+    background-color: rgb(134, 255, 21);
   }
