@@ -1,9 +1,9 @@
   
 .jumbo { 
     padding: 30px;
-    background:rgb(102, 255, 0, .7);
     border: solid black 20px;
     margin:0;
+   
 }
 .text {
     font-size: 45px;
@@ -32,3 +32,10 @@ body {
     
 }
 
+    .weight {
+background-image: url("img/weightPlates.jpeg");
+background-position-x: center;
+background-position-y: center;
+background-repeat: no-repeat;
+
+}
