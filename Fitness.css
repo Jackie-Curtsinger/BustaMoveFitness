@@ -1,23 +1,22 @@
   .jumbo { 
     padding: 30px;
-    background:rgb(102, 255, 0, .7);
     border: solid black 20px;
     margin:0;
-
+    background-image: url("img/Speaker.jpg");
+    background-position: center;
+    
+    background-size: contain;
+    
 }
 .text {
     font-size: 45px;
     text-align: center;
-
 }
 .neon {
-    background-color: rgb(134, 255, 21);
-    background-image: url("img/weightPlates.jpeg");
+    background-color: rgb(126, 125, 125);
     background-position-x: center;
     background-position-y: center;
-    background-repeat: no-repeat;
     
-   
 }
 body {
     background-color: black
@@ -33,14 +32,34 @@ body {
 }
 
 .navbar-toggler {
-    background-color: black;
-    width: 40px;
-    height:40px;
-  }
+    background-color: #9933cc;
+   
+}
   .fa-align-justify {
       color: #9933cc;
       
-  }
+}
   .neon2 {
-    background-color: rgb(134, 255, 21);
-  }
+    background-color: black;
+}
+
+  .navbar-toggler-icon {
+    align-self: center;
+    width: 30px;
+    height:25px;
+}
+.font {
+  color: rgb(143, 255, 15);
+}
+.purple {
+  color: #9933cc;
+}
+.white {
+  color: rgb(143, 255, 15);
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+.pic{
+  max-width: 200px;
+}
