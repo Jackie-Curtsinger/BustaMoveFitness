@@ -48,18 +48,18 @@ body {
     width: 30px;
     height:25px;
 }
-.font {
+  .font {
   color: rgb(143, 255, 15);
 }
-.purple {
+  .purple {
   color: #9933cc;
 }
-.white {
+  .white {
   color: rgb(143, 255, 15);
   font-size: 60px;
   padding-top: 30px;
 }
 
-.pic{
+  .pic{
   max-width: 200px;
 }

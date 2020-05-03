@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workshop Guessing Game</title>
+</head>
+<body onload="do_game()">
+    <a href="BAMKids.html">Back to Kids Page</a>
+	<script>
+    var target;
+    var guess_input_text;
+    var guess_input;
+    var finished = false;
+    var guesses = 0;
+    var workout = ["boot", "cardio", "dance", "yoga"]
+    var sorry_msg = "sorry, your guess is incorrect! \n\n"
+    var try_msg = "\n\n please try again."
+
+        var user_name;
+        user_name = prompt ("what is your name?");
+        
+        
+    function do_game() {
+        var random_number = Math.random() * workout.length;
+        var random_number_int = Math.floor(random_number);
+        target = workout[random_number_int];
+        
+
+    while (!finished) {
+        guess_input = prompt ("i am thinking of one of these workout: \n\n" +
+                workout.join(",") + "\n\n" + "what workout am i thinking of?");
+         guesses += 1;
+         finished = check_guess(); 
+    }
+}
+function check_guess(){ 
+    if (workout.indexOf(guess_input)== -1){
+        alert("sorry, i dont recognize your workout. \n\n" + try_msg);
+        return false;
+    }
+    if (guess_input > target){
+        alert(sorry_msg + "hint: your workout is alphabetically higher than mine." + try_msg);
+        return false;
+    }
+    if (guess_input < target){
+        alert(sorry_msg + "hint: your workout is alphebetically lower than mine." + try_msg);
+        return false;
+
+       
+    }
+     alert (" congratulations! The workout was " + target + "!" + "\n\n" + " it took you " + guesses + " guesses! ")
+     
+     //document.body.style.background = guess_input;
+     //document.write (" welcome to my page " + user_name + "!" );
+
+     return true;
+}   
+
+    
+    </script> 
+</body>
+</html>
