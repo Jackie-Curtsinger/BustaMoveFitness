@@ -2,9 +2,9 @@
   padding: 30px;
   border: solid black 20px;
   margin:0;
-  background-image: url("img/jumprope.jpeg");
+  background: none;
   background-position: center;
-  
+  color: green;
   background-size: contain;
   
 }
@@ -57,3 +57,37 @@ max-width: 200px;
 .free{
 font-size: 50px;
 }
+
+#membership {
+  border:solid rgba(255, 0, 200, 0.87);
+  font-size: 25px;
+  
+}
+
+#unlimited {
+  color: silver;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  background-color:rgb(0,153,153,0.35);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#punch {
+  color: silver;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  background-color:rgb(143, 255, 15,0.35);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#go {
+  color: silver;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  background-color:rgb(153,51,204,0.35);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
