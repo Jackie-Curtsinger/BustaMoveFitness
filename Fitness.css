@@ -2,32 +2,26 @@
     padding: 30px;
     border: solid black 20px;
     margin:0;
-    background-image: url("img/Speaker.jpg");
+    background-image: url("img/purpleBack.jpg");
     background-position: center;
-    
-    background-size: contain;
+    background-position-x: 0px;
+    background-size: 1800;
     
 }
 .text {
     font-size: 45px;
     text-align: center;
 }
-.neon {
-    background-color: rgb(126, 125, 125);
-    background-position-x: center;
-    background-position-y: center;
-    
-}
 body {
-    background-color: black
+    background-image: url("img/background.jpg");
 }
 .navbar {
     background-color: rgb(0, 0, 0);
-    color: #9933cc;
+    color: rgb(250, 94, 180);
     font-size: 11pt;
 }
 .nav-link {
-    color:#9933cc;
+    color:rgb(250, 94, 180);
     font-size: larger;
 }
 
@@ -38,9 +32,6 @@ body {
   .fa-align-justify {
       color: #9933cc;
       
-}
-  .neon2 {
-    background-color: black;
 }
 
   .navbar-toggler-icon {
@@ -62,4 +53,13 @@ body {
 
   .pic{
   max-width: 200px;
+}
+.free{
+  font-size: 50px;
+}
+.teal{
+color: teal;
+}
+.pink{
+color: rgb(250, 94, 180);
 }
