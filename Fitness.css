@@ -59,7 +59,7 @@ font-size: 50px;
 }
 
 #membership {
-  border:solid rgba(255, 0, 200, 0.87);
+  
   font-size: 25px;
   
 }
@@ -76,13 +76,13 @@ font-size: 50px;
 #punch {
   color: silver;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
-  background-color:rgb(143, 255, 15,0.35);
+  background-color:rgba(103, 255, 15, 0.45);
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
 
-#go {
+#go, #thumbnail {
   color: silver;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
   background-color:rgb(153,51,204,0.35);
@@ -90,4 +90,7 @@ font-size: 50px;
   font-weight: bold;
   text-align: center;
 }
+
+
+
 
