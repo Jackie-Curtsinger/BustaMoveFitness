@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> Matching Game</title>
+    <meta name="BC" content="game">
+    <style>
+        .rightSide {
+            left: 500px;
+            border-left: 2px solid rgb(80, 252, 1)
+        }
+
+        div {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+        }
+
+        img {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body onload="generateFaces()">
+    <h1>Matching Game</h1>
+    <a href="BAMkids.html">Return Home</a>
+    <p><b>Click on the extra smiling face on the left</b></p>
+    <div id="leftSide"> </div>
+    <div id="rightSide" class="rightSide"> </div>
+    <script>
+        var theLeftSide = document.getElementById("leftSide");
+        var theRightSide = document.getElementById("rightSide");
+        var numberOfFaces = 5;
+
+        function generateFaces() {
+            for (var i = 0; i < numberOfFaces; i++) {
+
+                var top = Math.floor(Math.random() * 401);
+                var left = Math.floor(Math.random() * 401);
+                var theImg = document.createElement("img");
+                theImg.setAttribute("src", "img/jumprope.jpeg");
+                theImg.style.top = top + "px";
+                theImg.style.left = left + "px";
+                theLeftSide.appendChild(theImg)
+                LeftSideImages = theLeftSide.cloneNode(true);
+                LeftSideImages.removeChild(LeftSideImages.lastChild);
+                theRightSide.appendChild(LeftSideImages);
+
+            }
+            var theBody = document.getElementsByTagName("body")[0];
+            theLeftSide.lastChild.onclick = 
+            function nextLevel(event) {
+                event.stopPropagation();
+                while (theLeftSide.firstChild) {
+                    theLeftSide.removeChild(theLeftSide.firstChild);
+                }
+                while (theRightSide.firstChild) {
+                    theRightSide.removeChild(theRightSide.firstChild);
+                }
+                numberOfFaces += 5
+                generateFaces();
+            }
+            theBody.onclick = function gameOver() {
+                alert("Sorry, Wrong Choice Game Over!! Try Again!");
+                event.stopPropagation();
+                while (theLeftSide.firstChild) {
+                    theLeftSide.removeChild(theLeftSide.firstChild);
+                }
+                while (theRightSide.firstChild) {
+                    theRightSide.removeChild(theRightSide.firstChild);
+                }
+                numberOfFaces = 5
+                generateFaces();
+            }
+
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -41,6 +41,7 @@ font-family: monospace;
 font-weight: 200;
 color: rgb(143, 255, 15);
 font-weight: bold;
+background-color: rgba(150,11,168,0.274);
 }
 .purple {
 color: #9933CC;
@@ -78,7 +79,7 @@ text-align: center;
 #punch {
 color: silver;
 text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
-background-color:rgba(103, 255, 15, 0.45);
+background-color:rgba(83, 255, 15, 0.5);
 font-size: 20px;
 font-weight: bold;
 text-align: center;
