@@ -1,122 +1,58 @@
 .jumbo { 
-    padding: 30px;
-    border: solid black 20px;
-    margin:0;
-    background: none;
-    background-position: center;
-    color: green;
-    background-size: contain;
-    
-  }
-  .text {
-    font-size: 45px;
-    text-align: center;
-  }
-  body {
-    background-image: url("img/background.jpg");
-  }
-  .navbar {
-    background-color: rgb(0, 0, 0);
-    color: #9933cc;
-    font-size: 11pt;
-  }
-  .nav-link {
-    color:#9933cc;
-    font-size: larger;
-  }
-  ​
-  .navbar-toggler {
-    background-color: #9933cc;
-   
-  }
-  .fa-align-justify {
-      color: #9933cc;
-      
-  }
-  ​
-  .navbar-toggler-icon {
-    align-self: center;
-    width: 30px;
-    height:25px;
-  }
-  .font {
-  color: rgb(143, 255, 15);
-  }
-  .purple {
-  color: #9933cc;
-  }
-  .white {
-  color: rgb(143, 255, 15);
-  font-size: 60px;
-  padding-top: 30px;
-  }
-  ​
-  .pic{
-  max-width: 200px;
-  }
-  .free{
-  font-size: 50px;
-  }
-  
-  .jumbo { 
-    padding: 30px;
-    border: solid black 20px;
-    margin:0;
-    background-image: url("img/purpleBack.jpg");
-    background-position: center;
-    background-position-x: 0px;
-    background-size: 1800;
-    
+  padding: 30px;
+  border: solid black 20px;
+  margin:0;
+  background-image: url("img/purpleBack.jpg");
+  background: transparent;
+  background-position: center;
+  background-position-x: 0px;
+  background-size: 1800;
+  font-family: monospace;
 }
 .text {
-    font-size: 45px;
-    text-align: center;
+  font-size: 45px;
+  text-align: center;
 }
 body {
-    background-image: url("img/background.jpg");
+  background-image: url("img/background.jpg");
 }
 .navbar {
-    background-color: rgb(0, 0, 0);
-    color: rgb(250, 94, 180);
-    font-size: 11pt;
+  background-color: rgb(0, 0, 0);
+  color: #9933CC;
+  font-size: 11pt;
 }
 .nav-link {
-    color:rgb(250, 94, 180);
-    font-size: larger;
+  color:#9933cc;
+  font-size: larger;
 }
-​
 .navbar-toggler {
-    background-color: #9933cc;
-   
+  background-color: #9933CC;
 }
-  .fa-align-justify {
-      color: #9933cc;
-      
+.fa-align-justify {
+    color: #9933CC;
 }
-​
-  .navbar-toggler-icon {
-    align-self: center;
-    width: 30px;
-    height:25px;
+.navbar-toggler-icon {
+  align-self: center;
+  width: 30px;
+  height:25px;
 }
-  .font {
-  color: rgb(143, 255, 15);
+.font {
+font-family: monospace;
+font-weight: 200;
+color: rgb(143, 255, 15);
+font-weight: bold;
 }
-  .purple {
-  color: #9933cc;
+.purple {
+color: #9933CC;
 }
-  .white {
-  color: rgb(143, 255, 15);
-  font-size: 60px;
-  padding-top: 30px;
+.white {
+font-size: 60px;
 }
-​
-  .pic{
-  max-width: 400;
+.pic{
+max-width: 400;
 }
 .free{
-  font-size: 50px;
-  background-color: rgb(0, 0, 0, .5);
+font-size: 50px;
 }
 .teal{
 color: teal;
@@ -125,66 +61,60 @@ color: teal;
 color: rgb(250, 94, 180);
 }
 h5 {
-  color: rgb(143, 255, 15);
-  font-size: xx-large;
+color: rgb(143, 255, 15);
+font-size: xx-large;
 }
-
 #membership {
-    
-  font-size: 25px;
-  
+font-size: 25px;
 }
-
 #unlimited {
-  color: silver;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
-  background-color:rgb(0,153,153,0.35);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
+color: silver;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+background-color:rgb(0,153,153,0.35);
+font-size: 20px;
+font-weight: bold;
+text-align: center;
 }
-
 #punch {
-  color: silver;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
-  background-color:rgba(103, 255, 15, 0.45);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
+color: silver;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+background-color:rgba(103, 255, 15, 0.45);
+font-size: 20px;
+font-weight: bold;
+text-align: center;
 }
-
 #go, #thumbnail {
-  color: silver;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
-  background-color:rgb(153,51,204,0.35);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
+color: silver;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+background-color:rgb(153,51,204,0.35);
+font-size: 20px;
+font-weight: bold;
+text-align: center;
 }
-
-  
 .cal {
-  border: solid green;
-  color: silver;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
-  background-color:rgb(0,153,153,0.35);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-   
+border: solid green 2px; 
+border: solid lightgreen 2px;
+padding: 15px;
+color: silver;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+background-color:rgb(0,153,153,0.35);
+font-size: 20px;
+font-weight: bold;
+text-align: center;
 }
 #quote {
-  background-color: rgba(255, 0, 200, 0.75);
-  color:silver;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
-  font-size: 30px;
+background-color:rgb(153,51,204,0.35);
+color:silver;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+font-size: 30px;
 }
-
-.row {
-  border: solid green;
+tr td  {
+border: solid green 2px;
+border: solid lightgreen 2px;  
+color: silver;
 }
-
-.row div {
-  border: solid lightgreen;
+th {
+border: solid green 2px;
+text-align: center;
+color: silver;
 }
-  
