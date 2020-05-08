@@ -3,35 +3,34 @@
     border: solid black 20px;
     margin:0;
     background-image: url("img/purpleBack.jpg");
+    background: transparent;
     background-position: center;
     background-position-x: 0px;
     background-size: 1800;
     
+    font-family: 'Special Elite', cursive;
 }
-.text {
-    font-size: 45px;
-    text-align: center;
-}
+  .kids {
+    color: rgb(143, 255, 15);
+    
+  }
 body {
     background-image: url("img/background.jpg");
 }
 .navbar {
     background-color: rgb(0, 0, 0);
-    color: rgb(250, 94, 180);
+    color: #9933cc;
     font-size: 11pt;
 }
 .nav-link {
-    color:rgb(250, 94, 180);
+    color:#9933cc;
     font-size: larger;
 }
 
 .navbar-toggler {
     background-color: #9933cc;
-   
-}
-  .fa-align-justify {
-      color: #9933cc;
-      
+   width: 45px;
+   height: 45px;
 }
 
   .navbar-toggler-icon {
@@ -40,27 +39,79 @@ body {
     height:25px;
 }
   .font {
+  font-family: monospace;
+  font-weight: 200;
   color: rgb(143, 255, 15);
-}
-  .purple {
-  color: #9933cc;
+  font-weight: bold;
+  background-color: rgba(150, 11, 168, 0.274);
+  }
+.text {
+    font-size: 45px;
+    text-align: center;
 }
   .white {
+  font-size: 60px; 
   color: rgb(143, 255, 15);
-  font-size: 60px;
-  padding-top: 30px;
-}
-
-  .pic{
-  max-width: 200px;
 }
 .free{
   font-size: 50px;
-  background-color: rgb(0, 0, 0, .5);
 }
-.teal{
-color: teal;
+
+h5 {
+  color: rgb(143, 255, 15);
+  font-size: xx-large;
 }
-.pink{
-color: rgb(250, 94, 180);
+#membership {
+  font-size: 25px;
+}
+#unlimited {
+  color: silver;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  background-color:rgb(0,153,153,0.35);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#punch {
+  color: silver;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  background-color:rgba(103, 255, 15, 0.45);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#go, #thumbnail {
+  color: silver;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  background-color:rgb(153,51,204,0.35);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.cal {
+  border: solid green 2px; 
+  border: solid lightgreen 2px;
+  padding: 15px;
+  color: silver;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  background-color:rgb(0,153,153,0.35);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#quote {
+  background-color:rgb(153,51,204,0.35);
+  color:silver;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  font-size: 30px;
+}
+tr td  {
+border: solid green 2px;
+border: solid lightgreen 2px;  
+color: silver;
+}
+th {
+  border: solid green 2px;
+  text-align: center;
+  color: silver;
 }

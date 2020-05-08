@@ -5,9 +5,12 @@
     <title> Matching Game</title>
     <meta name="BC" content="game">
     <style>
+        html {
+            background-color: teal;
+        }
         .rightSide {
             left: 500px;
-            border-left: 2px solid rgb(80, 252, 1)
+            border-left: 2px solid black
         }
 
         div {
@@ -41,7 +44,7 @@
                 var top = Math.floor(Math.random() * 401);
                 var left = Math.floor(Math.random() * 401);
                 var theImg = document.createElement("img");
-                theImg.setAttribute("src", "img/dumbell.jpeg");
+                theImg.setAttribute("src", "img/jumprope.jpeg");
                 theImg.style.top = top + "px";
                 theImg.style.left = left + "px";
                 theLeftSide.appendChild(theImg)
@@ -64,10 +67,18 @@
                 generateFaces();
             }
             theBody.onclick = function gameOver() {
-                alert("Wrong Choice! Game Over!!");
-                theBody.onclick = null;
-                theLeftSide.lastChild.onclick = null;
+                alert("Sorry, Wrong Choice Game Over!! Try Again!");
+                event.stopPropagation();
+                while (theLeftSide.firstChild) {
+                    theLeftSide.removeChild(theLeftSide.firstChild);
+                }
+                while (theRightSide.firstChild) {
+                    theRightSide.removeChild(theRightSide.firstChild);
+                }
+                numberOfFaces = 5
+                generateFaces();
             }
+
         }
     </script>
 
